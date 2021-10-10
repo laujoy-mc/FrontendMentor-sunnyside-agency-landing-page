@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+* {
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border-radius: 0;
+  border: none;
+}
+.card .card-img,
+.card .card-img-overlay {
+  border-radius: 0;
+  border: none;
+}
+
+footer {
+  background-color: #458c7e;
+  color: #25564b;
+}
+footer a {
+  text-decoration: none;
+  color: #25564b;
+}
+
+header {
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+header nav {
+  background: transparent;
+  color: white;
+}
+header nav a,
+header nav a.nav-link {
+  color: white;
+}
+header h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+header h1 .letter {
+  font-size: 2.5rem;
+}
+
+.font-fraunces {
+  font-family: "Fraunces", serif;
+}
+
+.font-barlow {
+  font-family: "Barlow", sans-serif;
+}
+
+.ml1 .letter,
+.ml12 .letter {
+  font-size: inherit;
+}
+
+section div.transform .font-fraunces,
+section div.stand-out .font-fraunces {
+  color: #23303e;
+}
+section div.transform .font-barlow,
+section div.stand-out .font-barlow {
+  color: #5a636c;
+}
+
+.card.graphic-design .card-img-overlay div {
+  width: 450px;
+}
+.card.graphic-design .card-img-overlay h2,
+.card.graphic-design .card-img-overlay p {
+  color: #25564b;
+}
+
+.card.photography .card-img-overlay div {
+  width: 450px;
+}
+.card.photography .card-img-overlay h2,
+.card.photography .card-img-overlay p {
+  color: #19536b;
+}
+
+section#clientTestimonials h2 {
+  letter-spacing: 0.2em;
+  color: #a7abae;
+}
+section#clientTestimonials .card img {
+  border-radius: 50%;
+  width: 30%;
+  margin: auto;
+}
+section#clientTestimonials .card-text {
+  color: #5a636c;
+}
+section#clientTestimonials span.font-barlow {
+  color: #a7abae;
+}
+
+/*# sourceMappingURL=style.css.map */

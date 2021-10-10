@@ -1,0 +1,157 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+// Primary Colors
+$primary-soft-red: hsl(7,
+99%,
+70%);
+$primary-yellow: hsl(51,
+100%,
+49%);
+$primary-dark-desaturated-cyan: hsl(167,
+40%,
+24%);
+$primary-dark-blue: hsl(198,
+62%,
+26%);
+$primary-dark-moderate-cyan: hsl(168,
+34%,
+41%);
+// Neatral Colors
+$neutral-very-dark-desaturated-blue: hsl(212,
+27%,
+19%);
+$neutral-very-dark-grayish-blue: hsl(213,
+9%,
+39%);
+$neutral-dark-grayish-blue: hsl(232,
+10%,
+55%);
+$neutral-grayish-blue: hsl(210,
+4%,
+67%);
+$neutral-white: hsl(0,
+0%,
+100%);
+* {
+    font-size: 18px;
+}
+
+// Feel free to remove these styles or customise in your own stylesheet 👍
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    .card-img,
+    .card-img-overlay {
+        border-radius: 0;
+        border: none;
+    }
+}
+
+footer {
+    background-color: $primary-dark-moderate-cyan;
+    color: $primary-dark-desaturated-cyan;
+    a {
+        text-decoration: none;
+        color: $primary-dark-desaturated-cyan;
+    }
+}
+
+// Specific styles
+header {
+    background-image: url('/images/desktop/image-header.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    nav {
+        background: transparent;
+        color: white;
+        a,
+        a.nav-link {
+            color: white;
+        }
+    }
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        .letter {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+.font-fraunces {
+    font-family: 'Fraunces', serif;
+}
+
+.font-barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.ml1,
+.ml12 {
+    .letter {
+        font-size: inherit;
+    }
+}
+
+section div.transform,
+section div.stand-out {
+    .font-fraunces {
+        color: $neutral-very-dark-desaturated-blue;
+    }
+    .font-barlow {
+        color: $neutral-very-dark-grayish-blue;
+    }
+}
+
+.card.graphic-design .card-img-overlay {
+    div {
+        width: 450px;
+    }
+    h2,
+    p {
+        color: $primary-dark-desaturated-cyan;
+    }
+}
+
+.card.photography .card-img-overlay {
+    div {
+        width: 450px;
+    }
+    h2,
+    p {
+        color: $primary-dark-blue;
+    }
+}
+
+section#clientTestimonials {
+    h2 {
+        letter-spacing: 0.2em;
+        color: $neutral-grayish-blue;
+    }
+    .card img {
+        border-radius: 50%;
+        width: 30%;
+        margin: auto;
+    }
+    .card-text {
+        color: $neutral-very-dark-grayish-blue;
+    }
+    span.font-barlow {
+        color: $neutral-grayish-blue;
+    }
+}
