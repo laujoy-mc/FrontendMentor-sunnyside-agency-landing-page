@@ -51,10 +51,10 @@ window.addEventListener("scroll", function() {
     // nav
     let navArea = document.getElementById("sunnysideNav");
 
-    if (window.pageYOffset > 0) {
-        navArea.classList.add("bg-dark");
+    if (window.pageYOffset > window.innerHeight) {
+        navArea.style.backgroundColor = "#458c7e";
     } else {
-        navArea.classList.remove("bg-dark");
+        navArea.style.backgroundColor = "transparent";
     }
 
     // // ml1 animation

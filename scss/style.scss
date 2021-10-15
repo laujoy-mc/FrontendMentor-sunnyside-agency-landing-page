@@ -158,3 +158,40 @@ section#clientTestimonials {
         color: $neutral-grayish-blue;
     }
 }
+
+// media query
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    nav {
+        .navbar-collapse.collapse {
+            background-color: white;
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    nav {
+        .navbar-collapse.collapse {
+            background-color: white;
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    nav {
+        .navbar-collapse {
+            background-color: $primary-dark-moderate-cyan;
+            ul li a {
+                color: $primary-dark-desaturated-cyan;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {}
