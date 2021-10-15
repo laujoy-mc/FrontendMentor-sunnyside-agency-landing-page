@@ -66,6 +66,11 @@ header h1 .letter {
   font-family: "Barlow", sans-serif;
 }
 
+.primary-bg-color {
+  background-color: #458c7e;
+  color: #25564b;
+}
+
 .ml1 .letter,
 .ml12 .letter {
   font-size: inherit;

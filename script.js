@@ -52,11 +52,12 @@ window.addEventListener("scroll", function() {
     let navArea = document.getElementById("sunnysideNav");
 
     if (window.pageYOffset > window.innerHeight) {
-        navArea.style.backgroundColor = "#458c7e";
+        navArea.classList.add("primary-bg-color");
     } else {
-        navArea.style.backgroundColor = "transparent";
+        navArea.classList.remove("primary-bg-color");
     }
 
+    // To be added later
     // // ml1 animation
     // let ml1 = document.getElementsByClassName('ml1');
     // console.log(ml1);

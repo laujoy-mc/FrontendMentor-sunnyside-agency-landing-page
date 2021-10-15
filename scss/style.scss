@@ -104,6 +104,11 @@ header {
     font-family: 'Barlow', sans-serif;
 }
 
+.primary-bg-color {
+    background-color: $primary-dark-moderate-cyan;
+    color: $primary-dark-desaturated-cyan;
+}
+
 .ml1,
 .ml12 {
     .letter {
